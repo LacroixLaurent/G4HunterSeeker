@@ -1,4 +1,4 @@
-# G4Hunter
+# G4HunterSeeker
 #### Shiny App related to G4Hunter published in [Bedrat _et al._ NAR 2016][paper ref].  
 Supplementary Data can be downloaded from [NCBI](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4770238/bin/supp_44_4_1746__index.html) or [Github](https://github.com/LacroixLaurent/G4HunterPaperGit).    
 The _EF184640.1.fa_ file corresponds to the human mitochondrial genome used in the publication.  
@@ -17,7 +17,7 @@ Just type your sequence in the box and you get the G4Hunter score below.
 Spaces are automaticaly removed, lower or upper cases are accepted.  
 Characters orther than **G** or **C** are kept and counted as **A**,**T** or **U**.
 
-###  G4Hunter seeker
+###  G4Hunter Seeker
 You have to choose how you enter your sequence either manually (**Manual entry**) or using a DNA fasta file (**Fasta File entry**).
 You have to choose if your sequence is in the **DNA** or **RNA** alphabet.  
 Please note that mRNA fasta sequences downloaded might use the **DNA** alphabet.  
