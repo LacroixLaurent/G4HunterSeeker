@@ -9,8 +9,16 @@ The _hTERC.fa_ file corresponds to the human telomerase RNA component in RNA alp
 ##### The app requires the following packages:
 * Biostrings
 * GenomicRanges
-* (S4Vectors)
-* (shiny)
+* shiny
+
+##### To run the app
+1- download the project from github.  
+2- set the directory where you extract the project as your working directory in R by using the command **setwd('PATH_TO_THE_PROJECT')**.  
+3- install the required packages by running the **install-packages.r** script.  
+4- in the R-console, type **runApp()**.  
+5- a browser pages should open with the app.  
+6- for the next time you want to run the app, you can just go your R-console and type **shiny::runApp('PATH_TO_THE_PROJECT')**. Thus if you have installed this app in a directory named work under your home directory, you should type **shiny::runApp('~/work/G4HunterSeeker/')**.  
+
 
 ### Quick G4Hunter score
 Just type your sequence in the box and you get the G4Hunter score below.  
