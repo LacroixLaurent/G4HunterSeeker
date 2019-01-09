@@ -3,7 +3,7 @@ if (getRversion()<'3.5.0')
 {
 	# for older R setup
 	source("http://bioconductor.org/biocLite.R")
-	biocLite("XVector")
+	biocLite(c("GenomicRanges","Biostrings"))
 }else{
 	# for R>=3.5.0
 	if (!requireNamespace("BiocManager"))
