@@ -8,6 +8,7 @@ source('./seekG4hunt.r')
 ui =fluidPage(
 	headerPanel("G4Hunter Apps",windowTitle='Apps for G4Hunter'),
 	p('by L. Lacroix, laurent.lacroix@inserm.fr'),
+	p(tagList('published in',a("Bioinformatics 2018", href="https://doi.org/10.1093/bioinformatics/bty951",target="_blank"))),
 	helpText(a("Click Here to open the README",href="README.html",target="_blank")),
 
 	wellPanel(h2('Quick G4Hunter calculator'),

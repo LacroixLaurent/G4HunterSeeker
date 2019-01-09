@@ -1,4 +1,6 @@
 # G4HunterSeeker
+#### See [G4HunterApps, Lacroix. Bioinformatics 2018](https://doi.org/10.1093/bioinformatics/bty951).
+
 #### Shiny App related to G4Hunter published in [Bedrat _et al._ NAR 2016][paper ref].  
 Supplementary Data can be downloaded from [NCBI](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4770238/bin/supp_44_4_1746__index.html) or [Github](https://github.com/LacroixLaurent/G4HunterPaperGit).    
 The _EF184640.1.fa_ file corresponds to the human mitochondrial genome used in the publication.  
